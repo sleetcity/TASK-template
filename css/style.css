@@ -1,0 +1,36 @@
+
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Henny+Penny");
+@import url("reset.css");
+@import url("device.css");
+
+/* clearfix For modern browsers
+ * --------------------------------------- */
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+/* basic container
+ * --------------------------------------- */
+html {
+    height: 100%;
+    background-color: #EEE
+  } 
+body {
+    height: 100%;
+    margin:auto;
+    background-color: #FFF;
+  }
+header,nav,article,footer {
+    border-top:1px dotted #D99;
+    width: 100%;
+  }
+header {
+  background-color: #05B;
+  color:#FFF;
+}
+
+/* frame
+ * --------------------------------------- */

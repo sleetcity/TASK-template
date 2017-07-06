@@ -1,0 +1,13 @@
+
+
+@media screen and (min-width : 600px) {
+    body {width: 100%}
+}
+
+@media screen and (min-width : 790px) {
+    body {width: 95%}
+}
+
+@media screen and (min-width : 1320px) {
+    body {width: 1280px}
+}
